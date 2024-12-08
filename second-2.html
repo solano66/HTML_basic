@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 自訂樣式(class)</title>
+    <link rel="stylesheet" href="styles/st1.css">
+    <style>
+        /* h1.st1 {
+            color: red;
+            font-style: italic;
+        }
+
+        .st2 {
+            color: orange;
+            text-decoration: underline;
+        }
+
+        .color1 {
+            color: aqua;
+        }
+
+        .color2 {
+            color: blueviolet;
+        }
+
+        .dec1 {
+            text-decoration: underline;
+        }
+
+        .style1 {
+            font-style: italic;
+        }
+
+        .size1 {
+            font-size: 2em;
+        }
+
+        .size2 {
+            font-size: 40px;
+        }
+
+        #color3 {
+            color: gold;
+        }
+
+        h1 {
+            color: darkgreen;
+        } */
+        p {
+            color: hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: blue;" class="color1" id="color3">h1</h1>
+    <script>
+        document.getElementById("theH1").style.color = "red";
+    </script>
+    <h2 class="st2">h2</h2>
+    <h3 class="st1">h3</h3>
+    <h4 class="st2">h4</h4>
+    <h4 class="color1 dec1 size1 color2">h4</h4>
+    <h4 class="color2 style1 size2 color1">h4</h4>
+    <p>pppppppppp</p>
+</body>
+
+</html>

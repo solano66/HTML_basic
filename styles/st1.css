@@ -1,0 +1,45 @@
+h1.st1 {
+    color: red;
+    font-style: italic;
+}
+
+.st2 {
+    color: orange;
+    text-decoration: underline;
+}
+
+.color1 {
+    color: aqua;
+}
+
+.color2 {
+    color: blueviolet;
+}
+
+.dec1 {
+    text-decoration: underline;
+}
+
+.style1 {
+    font-style: italic;
+}
+
+.size1 {
+    font-size: 2em;
+}
+
+.size2 {
+    font-size: 40px;
+}
+
+#color3 {
+    color: gold;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+p {
+    color: rgb(35, 138, 37);
+}
