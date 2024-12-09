@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多欄版面</title>
+    <style>
+        body {
+            background-image: url(images/bg1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* fixed只適合body, textarea元素 */
+            background-attachment: fixed;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            width: 1000px;
+            margin: 20px auto;
+            border: 3px solid orange;
+            border-radius: 15px;
+            padding: 20px;
+            line-height: 1.7;
+            text-align: justify;
+            column-count: 3;
+            column-gap: 2em;
+            column-rule: 5px dotted #FFBB77;
+            background-image: url(images/bg3.png);
+            background-size: 50px 50px;
+            background-repeat: repeat-x;
+            background-position: bottom right;
+        }
+
+        .box2 {
+            width: 1000px;
+            margin: 20px auto;
+            border: 3px solid #D0D0D0;
+            border-radius: 15px;
+            padding: 20px;
+            line-height: 1.7;
+            text-align: justify;
+            column-width: 300px;
+            column-gap: 2em;
+            column-rule: 5px dashed #F0F0F0;
+            background-image: url(images/bg3.png), url(images/bg3.png);
+            background-repeat: no-repeat;
+            background-position: right, 500px 400px;
+        }
+
+        .box2 p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="box1">
+        道奇21日與大都會進行國聯冠軍賽第6戰，道奇二刀流球星大谷翔平首打席在新的登場曲下就敲出安打，並趁艾德曼（Tommy Edman ）的二壘打率先跑回第1分。
+
+        大谷1局下面對大都會先發投手馬奈亞（Sean
+        Manaea），在1壞球後連揮空了2球，最後相中一顆伸卡球敲出中間方向一壘安打，這也是他連續4場比賽都有安打演出，意外的是當大谷站上打擊區時，另一首輕快曲子響起，原本大谷的登場曲是美國歌手費艾斯可（Lupe
+        Fiasco）的《The Show Goes On》，21日道奇主場上卻播出加拿大歌手麥可布雷（Michael Buble）的《Feeling
+        Good》，這首曲子除了是日本電影《令人討厭的松子的一生》的插曲，也是日職火腿球星萬波中正的登場曲。
+
+        自3月韓國海外開幕戰返美後，大谷就把登場曲換成《The Show Goes On》，其中「Alright, already the show goes
+        on」的歌詞似乎宣告，儘管面對前翻譯水原一平涉賭的諸多紛擾，他仍將專注賽季，而今天大谷又換成《Feeling Good》後，讓人感覺他確實很享受季後賽的氛圍，渴望闖入世界大賽的心情。
+
+        道奇21日與大都會進行國聯冠軍賽第6戰，道奇二刀流球星大谷翔平首打席在新的登場曲下就敲出安打，並趁艾德曼（Tommy Edman ）的二壘打率先跑回第1分。
+
+        大谷1局下面對大都會先發投手馬奈亞（Sean
+        Manaea），在1壞球後連揮空了2球，最後相中一顆伸卡球敲出中間方向一壘安打，這也是他連續4場比賽都有安打演出，意外的是當大谷站上打擊區時，另一首輕快曲子響起，原本大谷的登場曲是美國歌手費艾斯可（Lupe
+        Fiasco）的《The Show Goes On》，21日道奇主場上卻播出加拿大歌手麥可布雷（Michael Buble）的《Feeling
+        Good》，這首曲子除了是日本電影《令人討厭的松子的一生》的插曲，也是日職火腿球星萬波中正的登場曲。
+
+        自3月韓國海外開幕戰返美後，大谷就把登場曲換成《The Show Goes On》，其中「Alright, already the show goes
+        on」的歌詞似乎宣告，儘管面對前翻譯水原一平涉賭的諸多紛擾，他仍將專注賽季，而今天大谷又換成《Feeling Good》後，讓人感覺他確實很享受季後賽的氛圍，渴望闖入世界大賽的心情。
+    </p>
+    <div class="box2">
+        <p>道奇21日與大都會進行國聯冠軍賽第6戰，道奇二刀流球星大谷翔平首打席在新的登場曲下就敲出安打，並趁艾德曼（Tommy Edman ）的二壘打率先跑回第1分。</p>
+        <p>大谷1局下面對大都會先發投手馬奈亞（Sean
+            Manaea），在1壞球後連揮空了2球，最後相中一顆伸卡球敲出中間方向一壘安打，這也是他連續4場比賽都有安打演出，意外的是當大谷站上打擊區時，另一首輕快曲子響起，原本大谷的登場曲是美國歌手費艾斯可（Lupe
+            Fiasco）的《The Show Goes On》，21日道奇主場上卻播出加拿大歌手麥可布雷（Michael Buble）的《Feeling
+            Good》，這首曲子除了是日本電影《令人討厭的松子的一生》的插曲，也是日職火腿球星萬波中正的登場曲。</p>
+        <p>自3月韓國海外開幕戰返美後，大谷就把登場曲換成《The Show Goes On》，其中「Alright, already the show goes
+            on」的歌詞似乎宣告，儘管面對前翻譯水原一平涉賭的諸多紛擾，他仍將專注賽季，而今天大谷又換成《Feeling Good》後，讓人感覺他確實很享受季後賽的氛圍，渴望闖入世界大賽的心情。</p>
+        <p>道奇21日與大都會進行國聯冠軍賽第6戰，道奇二刀流球星大谷翔平首打席在新的登場曲下就敲出安打，並趁艾德曼（Tommy Edman ）的二壘打率先跑回第1分。</p>
+        <p>大谷1局下面對大都會先發投手馬奈亞（Sean
+            Manaea），在1壞球後連揮空了2球，最後相中一顆伸卡球敲出中間方向一壘安打，這也是他連續4場比賽都有安打演出，意外的是當大谷站上打擊區時，另一首輕快曲子響起，原本大谷的登場曲是美國歌手費艾斯可（Lupe
+            Fiasco）的《The Show Goes On》，21日道奇主場上卻播出加拿大歌手麥可布雷（Michael Buble）的《Feeling
+            Good》，這首曲子除了是日本電影《令人討厭的松子的一生》的插曲，也是日職火腿球星萬波中正的登場曲。</p>
+        <p>自3月韓國海外開幕戰返美後，大谷就把登場曲換成《The Show Goes On》，其中「Alright, already the show goes
+            on」的歌詞似乎宣告，儘管面對前翻譯水原一平涉賭的諸多紛擾，他仍將專注賽季，而今天大谷又換成《Feeling Good》後，讓人感覺他確實很享受季後賽的氛圍，渴望闖入世界大賽的心情。</p>
+        <p>道奇21日與大都會進行國聯冠軍賽第6戰，道奇二刀流球星大谷翔平首打席在新的登場曲下就敲出安打，並趁艾德曼（Tommy Edman ）的二壘打率先跑回第1分。</p>
+        <p>大谷1局下面對大都會先發投手馬奈亞（Sean
+            Manaea），在1壞球後連揮空了2球，最後相中一顆伸卡球敲出中間方向一壘安打，這也是他連續4場比賽都有安打演出，意外的是當大谷站上打擊區時，另一首輕快曲子響起，原本大谷的登場曲是美國歌手費艾斯可（Lupe
+            Fiasco）的《The Show Goes On》，21日道奇主場上卻播出加拿大歌手麥可布雷（Michael Buble）的《Feeling
+            Good》，這首曲子除了是日本電影《令人討厭的松子的一生》的插曲，也是日職火腿球星萬波中正的登場曲。</p>
+        <p>自3月韓國海外開幕戰返美後，大谷就把登場曲換成《The Show Goes On》，其中「Alright, already the show goes
+            on」的歌詞似乎宣告，儘管面對前翻譯水原一平涉賭的諸多紛擾，他仍將專注賽季，而今天大谷又換成《Feeling Good》後，讓人感覺他確實很享受季後賽的氛圍，渴望闖入世界大賽的心情。</p>
+        <p>道奇21日與大都會進行國聯冠軍賽第6戰，道奇二刀流球星大谷翔平首打席在新的登場曲下就敲出安打，並趁艾德曼（Tommy Edman ）的二壘打率先跑回第1分。</p>
+        <p>大谷1局下面對大都會先發投手馬奈亞（Sean
+            Manaea），在1壞球後連揮空了2球，最後相中一顆伸卡球敲出中間方向一壘安打，這也是他連續4場比賽都有安打演出，意外的是當大谷站上打擊區時，另一首輕快曲子響起，原本大谷的登場曲是美國歌手費艾斯可（Lupe
+            Fiasco）的《The Show Goes On》，21日道奇主場上卻播出加拿大歌手麥可布雷（Michael Buble）的《Feeling
+            Good》，這首曲子除了是日本電影《令人討厭的松子的一生》的插曲，也是日職火腿球星萬波中正的登場曲。</p>
+        <p>自3月韓國海外開幕戰返美後，大谷就把登場曲換成《The Show Goes On》，其中「Alright, already the show goes
+            on」的歌詞似乎宣告，儘管面對前翻譯水原一平涉賭的諸多紛擾，他仍將專注賽季，而今天大谷又換成《Feeling Good》後，讓人感覺他確實很享受季後賽的氛圍，渴望闖入世界大賽的心情。</p>
+    </div>
+</body>
+
+</html>

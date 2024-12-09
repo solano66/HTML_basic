@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module17</title>
+    <style>
+        h1 {
+            background-color: yellow;
+            /* visibility: hidden; */
+            display: none;
+        }
+
+        .box {
+            background-color: yellow;
+        }
+
+        .label1 {
+            background-color: orange;
+        }
+
+        .span2 {
+            visibility: hidden;
+        }
+
+        .box:hover .span1 {
+            display: none;
+        }
+
+        .box:hover .span2 {
+            visibility: visible;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 70px;
+            border: 1px solid red;
+            overflow: hidden;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <h1>我是h1</h1>
+    <h2>hi 我是h2, h1消失了嗎?</h2>
+    <div class="box">
+        <span class="span1">span1</span>
+        <label for="" class="label1">
+            <span class="span2">span2</span>
+        </label>
+    </div>
+    <hr>
+    <div class="box2">
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa消失消失消失消失消失消失消失消失消失消失消失
+    </div>
+</body>
+
+</html>
